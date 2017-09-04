@@ -1,0 +1,15 @@
+Code assembles, runs, and halts:    5/5
+Main program contains a proper call to COMPUTE_PRIMES:  5/5
+All registers that are modified by IS_PRIME are restored to their original values on return:   5/5
+All registers are properly initialized:   5/5
+IS_PRIME accepts input in R0:  5/5
+IS_PRIME correctly implements the above algorithm:   40/40
+IS_PRIME checks all possible divisors from 2 to N/2:   10/10
+IS_PRIME makes proper call to DIVIDE subroutine:   10/10
+IS_PRIME returns result in R5:  5/5
+Code uses as few as possible iterative and conditional constructs:  5/5
+Subroutine is well-documented (description of functionality, register table, comments, proper source code formatting, etc.):  5/5
+
+- lc3 tools issue
+
+Total:    100

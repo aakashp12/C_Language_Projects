@@ -1,0 +1,5 @@
+Write a short introduction about yourself (program of study, what ECE courses have you taken so far, what makes you interested in CompE/EE, etc.)
+
+Hi, My name is Aakash Patel. 
+I'm studying Computer Engineering. 
+I have take ECE 110, ECE120, ECE 210, and ECE220 so far. 

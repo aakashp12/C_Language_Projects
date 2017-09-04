@@ -1,0 +1,51 @@
+
+1. Provide C code to declare a variable "s" which is an array of 4 structures with members "int" and "double".
+	>
+	struct a
+	{ 
+		int b; 
+		double c;
+	};
+	struct a s[4];
+
+2. Declare the same variable "s" (an array of 4 structures with members "int" and "double"), this time using a custom type to identify the structure.
+	>
+	struct Ques_2
+	{
+		int a;
+		int b;
+	};
+	
+	typedef struct Ques_2 C;
+	
+	C s[4];
+
+3. What does the type of "a" change to when it's used in expression 1?
+	> Type "a" is an array of 5 pointers to char. It changes to a pointer to 5 pointers to char. So it's pointing at the first pointer to a char.
+
+4. What is the result of all four expressions? Why?
+	> All four expressions give the answer 4. This is because each item we are using different ways to access the 4th element in the array which is 4. First time we add the 3 to array[0] address then derefrence it and get 4. the second time we directly access it using [3]. The third time we create a pointer make it point to address of array[0], then we add 3 to it and derefrence it. The fourth time we  access it directly. 
+
+5. You have a variable with type "int" that you want to pass to a function, but the parameter has type "int *". How do you pass it? What if the parameter has type "int **"?
+	> Given parameter int*, then i would create an int pointer that points to the variable with type "int" that i need to pass into the function.
+	> Given the parameter int**, i would create a double pointer that points to a pointer which points to the variable with type "int".
+
+
+6. Suppose you have a variable called "vector_array" which is an array of this "vector" type. Write a C expression to access the y component of element 4 of the array (element 0 is the first).
+	> vector vector_array[4] = { {1,2} , {3,4}, {5,6}, {7,8} };
+	  cout << vector_array[3].y << endl; gives value 8.
+
+
+7. If we have a variable "cur_ball" which is a pointer to a "ball", how would we access the x velocity of the ball? What if we had an array of "ball" called "balls" and wanted to access the y position of ball 0?
+	>  ball* cur_ball = &baseball; cout << (*cur_ball).velocity.x << endl;
+	>  ball balls[2] = { { {1,2}, {-0.5,0} }, { {3,4}, {5,6} } };
+	   cout << balls[0].poisition.y << endl; get the value of Y position of ball 0.
+
+
+8. Explain why "&array[3]" and "array + 3" are equivalent.
+	>  &array[3] gives you the address of the 4th element of the array. array is the address of array[0], and array + 3 will you give the address of the 4th element as well. So they are equivalent.
+a
+9. Explain why this trick works.
+	sizeof(array) gives you how many bytes it has stored in memory. For example - int array[10] has 40 bytes stored. sizeof(array[0]) which holds an int value, gives you 4 bytes. so 40/4 gives you 10. Thats the size of the array. 
+
+

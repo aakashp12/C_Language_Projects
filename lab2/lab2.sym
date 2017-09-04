@@ -1,0 +1,14 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	DIGIT_COUNTER     3003
+//	BIT_COUNTER       3006
+//	SHIFT             300C
+//	PRINT             300F
+//	PRINT_NUM         3012
+//	PRINT_DIG         3018
+//	STOP              301F
+//	ASCII_A           3020
+//	ASCII_0           3021
+

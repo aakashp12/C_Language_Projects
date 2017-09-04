@@ -1,0 +1,3 @@
+Hi, I actually talked to the professor about the change that was made to this MP with the X and Y variables switching place in the main funciton.
+I emailed him ASAP as i realized the change had happened. I told him which lines i was going to change, and he said "Yes, go ahead and update your submission. There will be no penalty."
+If i need to provide proof of this interaction then please send me an eamil at apate295@illinois.edu and i'll send you the screenshot of the email conversation between me and the professor. 

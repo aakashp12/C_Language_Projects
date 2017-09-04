@@ -1,0 +1,29 @@
+Answer the following questions:
+
+
+1. What is output from igcc? What is the initial value in the pointer? Will this always be the case? Hint think about what is stored in a variable that is not initialized.
+>	The output from IGCC was nothing. It didn't display anything. THe initial value of a pointer is NULL(0). This might not always be the case.When you create a pointer and not assign it a value, it could have some garbage in it.
+
+2. What does the * operator do at this point in the code? What happened? Why?
+> The * operator was used to make a pointer that points to address of varible a. If you print ipoint then you'll get the address of where varible a is stored in memory. If you print *ipoint then you'll get the value that variable a holds.
+
+3. What is the output when running the following commands?
+> The output was 5, 15, then 5. Variable a was changed using the pointer that was pointing at variable a. 
+
+4. What happens when running the above code? Why? How did you fix the code?
+> When you run the above code, the code starts printing addresses that its pointing to, and then it gives a segmentation fault. It gives a segmentation fault because the array IRAY was 5 elements, however the code was trying to add 100 elements. I changed the first for loop's condtion from i < 100 to i <  5.
+
+5. What is ipoint incremented by each time the statement ipoint = ipoint + 1 is run when the array is of type double. Why? Notice that the output from the array starts with zero. Why?
+> Ipoint is pointing to the addresses and the addresses get incremented by 8 bytes, because we are storing double. The output starts with zero, because in programming we start to count from 0, and go up.
+
+6. How does passing the arrays to a function using pointers affect the data as the array is being passed to the function? Hint: what happens if the array is changed in the function?
+> Passing an array via pointers can change the array since you are passing the addresses at which the values in an array are stored.
+
+7. Why is there a problem with the previous code snippet? Which line gives the error? Why?
+> "pi = &pd;" gives error. The pointer pi is a pointer of type int, while pd is a pointer of type double. In the above line we are trying to pass the address of a double pointer to a int pointer. Which causes error, becuase it's "illegal" to perform/do.
+
+8. Why is there a problem with that assignment? Why does the last assignment fail?
+> The problem is that we were trying to asign a 10 element array to a 5 element pointer. The pointer we created "int (*p5)[5];" only holds addresses for 5 elements, and in the last assignment we try to make p5 point to an array of 10 elements, so the assignment failed. 
+
+
+

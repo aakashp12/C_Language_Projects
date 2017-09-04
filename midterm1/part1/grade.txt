@@ -1,0 +1,15 @@
+Code assembles, runs, and halts:   5/5
+Main program contains a proper call to IS_BALANCED:  5/5
+All registers that are modified by IS_BALANCED are restored to their original values on return:  0/5
+All registers are properly initialized:   5/5
+IS_BALANCED acquires input string from the keyboard until user hits ENTER key or when unbalanced sequence of brackets is encountered:  10/10
+IS_BALANCED reads characters from the keyboard without using any TRAPs:  15/15
+IS_BALANCED echoes input characters to the display without using any TRAPs:  15/15
+IS_BALANCED uses stack subroutines PUSH and POP and implements the above algorithm:  25/25
+On exit, IS_BALANCED returns result in R0:  5/5
+Code uses as few as possible iterative and conditional constructs:   5/5
+- well-structured
+Subroutine is well-documented (description of functionality, register table, comments, proper source code formatting, etc.):  5/5
+
+
+Total:   95

@@ -1,0 +1,10 @@
+
++ code is submitted and assembles (1pt)
++ code prints (1pt)
+- output is correct (1pt)
+
+Please notice the difference between integer and floating-point operations in C.
+1/2 = 0
+1.0/2.0 = 0.5
+
+Total:  2

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/su16-ece220/!svn/ver/2672/apate295/mp5
+END
+functions.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/su16-ece220/!svn/ver/2672/apate295/mp5/functions.c
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/README.md
+END
+imageData.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/imageData.c
+END
+functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/functions.h
+END
+solution.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/solution.h
+END
+imageData.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/imageData.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/main.c
+END
+solution.o
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/solution.o
+END
+lodepng.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/lodepng.c
+END
+transform1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/transform1.txt
+END
+transform2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/transform2.txt
+END
+transform3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/transform3.txt
+END
+test.o
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/su16-ece220/!svn/ver/2472/apate295/mp5/test.o
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/Makefile
+END
+transform4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/transform4.txt
+END
+lodepng.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/su16-ece220/!svn/ver/2208/apate295/mp5/lodepng.h
+END
